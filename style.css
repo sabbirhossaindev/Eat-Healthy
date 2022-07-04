@@ -39,7 +39,7 @@ small{
     background-image: url(images/shapes/Frame\ 59.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 400px;
+    height: 100%;
 }
 .secnd-section-div{
     width: 50%;

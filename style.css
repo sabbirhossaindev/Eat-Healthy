@@ -1,0 +1,116 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0%;
+}
+span{
+    color: orangered;
+}
+small{
+    font-size: 12px;
+    color: gray;
+}
+/* first section start  */
+.first-section{
+    display: flex;
+}
+.first-section-div{
+    width: 50%;
+    padding: 5%;
+}
+.first-section-div img{
+    width: 80%;
+}
+.order-food-btn{
+    padding: 10px 25px;
+    border: none;
+    border-radius: 20px;
+    background-image: linear-gradient(#dd4b12, #ef4b0b);
+}
+.order-food-btn a{
+    text-decoration: none;
+    font-weight: 700;
+    color: #fff;
+}
+
+/* secnd section start  */
+
+.secnd-section{
+    display: flex;
+    background-image: url(images/shapes/Frame\ 59.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+.secnd-section-div{
+    width: 50%;
+    padding: 5%;
+}
+.secnd-section-div p{
+    font-size: 14px;
+}
+.secnd-section-div img{
+    width: 80%;
+}
+
+/* trd section start  */
+
+.trd-section-div-one{
+    text-align: center;
+}
+.trd-section-div-one p{
+    font-size: 14px;
+}
+/* food section start  */
+.food-div-father{
+    display: flex;
+    padding: 20px;
+}
+.food-div{
+    margin-left: 3%;
+    margin-right: 3%;
+    box-shadow: 5px 5px 15px gray;
+    border-radius: 15px;
+}
+.food-padding{
+    margin-top: -45px;
+    padding: 5%;
+}
+.food-padding p{
+    font-size: 13px;
+}
+.food-div img{
+    width: 90%;
+    padding: 5%;
+}
+
+.food-socil-follower{
+    display: flex;
+    padding-left: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 7%;
+    height: 200px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 3px 3px #9a9797;
+    margin-bottom: 50px;
+}
+.all-socile{
+    margin: 8% 8%;
+}
+/* footer section start  */
+footer{
+    background-color: black;
+    height: 130px;
+    text-align: center;
+}
+
+footer p{
+    font-size: 13px;
+    color: white;
+}
+.footer-eat{
+    color: orangered;
+}
+.footer-fresh{
+    color: #808080a4;
+}

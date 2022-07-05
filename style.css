@@ -27,12 +27,14 @@ small{
 .nav-li{
     display: flex;
     list-style: none;
-    margin-left: 300px;
+    margin-left: 250px;
+
 }
 .nav-li a{
     text-decoration: none;
     margin: 10px 15px;
     color: #fff;
+    font-size: 16px;
 }
 .nav-li a:hover{
     color: orangered;
@@ -41,10 +43,24 @@ small{
     color: #0db1f2;
 }
 
+.first-section{
+    padding-top: 26px;
+}
+.secnd-section{
+    padding-top: 110px;
+}
+#our-menu{
+    padding-top: 90px;
+}
+#socile-follwer{
+    padding-top: 50px;
+}
+.contact-us-section{
+    padding-top: 100px;
+}
 /* first section start  */
 .first-section{
     display: flex;
-    padding-top: 25px;
 }
 .first-section-div{
     width: 50%;
@@ -72,7 +88,8 @@ small{
     background-image: url(images/shapes/Frame\ 59.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100%;
+    height: 40%;
+    width: 100%;
 }
 .secnd-section-div{
     width: 50%;
@@ -97,6 +114,11 @@ small{
 .food-div-father{
     display: flex;
     padding: 20px;
+}
+.food-folloer{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
 }
 .food-div{
     margin-left: 3%;
@@ -138,7 +160,9 @@ small{
     background-image: url(images/food/Project\ Cover4.png);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100%;
+    height: 20%;
+    width: 100%;
+    margin-bottom: 10px;
 }
 form h3{
     color: #00b7ff;
@@ -150,13 +174,13 @@ form h4{
     text-align: center;
 }
 .text-input{
-    height: 30px;
+    height: 23px;
     width: 300px;
     border: none;
     border-radius: 10px;
 }
 .message-input{
-    height: 90px;
+    height: 80px;
     width: 300px;
     border: none;
     border-radius: 10px;

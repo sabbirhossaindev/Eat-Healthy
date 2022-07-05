@@ -85,7 +85,7 @@ small{
 
 .food-socil-follower{
     display: flex;
-    padding-left: 5%;
+    padding-left: 8%;
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 7%;
@@ -95,7 +95,8 @@ small{
     margin-bottom: 50px;
 }
 .all-socile{
-    margin: 8% 8%;
+    margin: 5% 5%;
+    text-align: center;
 }
 /* footer section start  */
 footer{

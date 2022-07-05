@@ -32,9 +32,9 @@ small{
 }
 .nav-li a{
     text-decoration: none;
-    margin: 10px 30px;
+    margin: 10px 22px;
     color: #fff;
-    font-size: 14px;
+    font-size: 13px;
 }
 .nav-li a:hover{
     color: orangered;
@@ -44,6 +44,9 @@ small{
 }
 
 .first-section{
+    background-image: url(images/shapes/Frame\ 58.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     padding-top: 26px;
 }
 .secnd-section{
@@ -115,11 +118,7 @@ small{
     display: flex;
     padding: 20px;
 }
-.food-folloer{
-    text-align: center;
-    margin-top: 30px;
-    margin-bottom: 10px;
-}
+
 .food-div{
     margin-left: 3%;
     margin-right: 3%;
@@ -154,6 +153,29 @@ small{
     margin-left: 10%;
     text-align: center;
 }
+#socile-follwer{
+    background-image: url(images/shapes/Frame\ 57.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80%;
+}
+.social-btn{
+    padding: 10px 35px;
+    background-image: linear-gradient(#ee355a, #0db1f2);
+    border: none;
+    border-radius: 10px;
+}
+.social-btn a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.food-folloer{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
 
 /* contact us section start  */
 .contact-us-section{
@@ -174,13 +196,13 @@ form h4{
     text-align: center;
 }
 .text-input{
-    height: 23px;
+    height: 27px;
     width: 300px;
     border: none;
     border-radius: 10px;
 }
 .message-input{
-    height: 80px;
+    height: 90px;
     width: 300px;
     border: none;
     border-radius: 10px;
